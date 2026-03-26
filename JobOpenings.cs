@@ -6,7 +6,7 @@ public class JobOpenings
     public string City = "New York";
 
     public string PrintOpening(){
-        return "Snitches get no bitches {FirstName}, {JobTitle}, {City}, 
+        return $@"Snitches get no bitches {FirstName}, {JobTitle}, {City}, 
             beep boop beep";
     }
 }
