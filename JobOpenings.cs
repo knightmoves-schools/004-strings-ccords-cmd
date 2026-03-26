@@ -1,10 +1,12 @@
 ﻿namespace knightmoves;
 public class JobOpenings
 {   
-    // Add your code here
+    public string FirstName = "BigTony";
+    public string JobTitle = "Entrepreneur";
+    public string City = "New York";
 
     public string PrintOpening(){
-        //Add your code here
-        return "";
+        return "Snitches get no bitches {FirstName}, {JobTitle}, {City}, 
+            beep boop beep";
     }
 }
